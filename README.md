@@ -57,3 +57,4 @@ Neu so dau lon hon app dang cai thi app se hien thong bao tai ban moi.
 - Khong doi ten `version.txt` va `version_rtd.txt`, vi APK da gan cung 2 ten nay.
 - Link APK nen la raw GitHub hoac link tai truc tiep ket thuc bang `.apk`.
 - Neu chi co 1 ban APK, co the de `version.txt` va `version_rtd.txt` giong nhau.
+- Ban fix cung `versionCode=416` se khong tu hien thong bao update tren may da cai ban 416. Neu may con popup ma kich hoat cu, hay cai tay APK moi trong repo mot lan.
