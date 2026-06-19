@@ -25,7 +25,7 @@ versionCode;versionName;apkUrl
 Vi du ban hien tai:
 
 ```txt
-416;3.56;https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_github_update.apk
+416;3.56;https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_github_update_noold_v3.apk
 ```
 
 Y nghia:
