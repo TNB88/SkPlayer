@@ -25,7 +25,7 @@ versionCode;versionName;apkUrl
 Vi du ban hien tai:
 
 ```txt
-416;3.56;https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_github_update_noold_v5.apk
+416;3.56;https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_bgok_v2_noold_v9.apk
 ```
 
 Y nghia:
@@ -58,3 +58,4 @@ Neu so dau lon hon app dang cai thi app se hien thong bao tai ban moi.
 - Link APK nen la raw GitHub hoac link tai truc tiep ket thuc bang `.apk`.
 - Neu chi co 1 ban APK, co the de `version.txt` va `version_rtd.txt` giong nhau.
 - Ban fix cung `versionCode=416` se khong tu hien thong bao update tren may da cai ban 416. Neu may con popup ma kich hoat cu, hay cai tay APK moi trong repo mot lan.
+- Ban hien tai da test doi background OK tren box `192.168.1.23`: `SmartKaraokePlayerPRO_v3.56_newkey_bgok_v2_noold_v9.apk`.
