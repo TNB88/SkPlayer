@@ -4,13 +4,13 @@ Ghi chu nay de lan sau mo Codex tren may khac van biet APK da sua nhung gi.
 
 ## Ban dang dung
 
-- APK on dinh hien tai: `SmartKaraokePlayerPRO_v3.56_newkey_bgok_v13_github_photo_15s_exitfix.apk`
+- APK on dinh hien tai: `SmartKaraokePlayerPRO_v3.56_newkey_bgok_v14_github_photo_10x30s_nolatest.apk`
 - Version trong APK: `versionCode=416`, `versionName=3.56`
 - File update app doc:
   - `version.txt`
   - `version_rtd.txt`
-- Link update hien tai dang tro ve ban v13:
-  - `https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_bgok_v13_github_photo_15s_exitfix.apk`
+- Link update hien tai dang tro ve ban v14:
+  - `https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_bgok_v14_github_photo_10x30s_nolatest.apk`
 
 ## Nhung viec da sua
 
@@ -42,11 +42,13 @@ Ghi chu nay de lan sau mo Codex tren may khac van biet APK da sua nhung gi.
 
 5. Doi nen online qua GitHub
    - Ban v13 doc anh nen tu repo `TNB88/photo_karaoke`.
-   - Cac file anh dang dung: `1.jpg`, `2.jpg`, `3.jpg`, `4.jpg`.
+   - Ban v14 doc 10 file anh: `1.jpg` den `10.jpg`.
    - De doi anh sau nay, chi can thay file trong repo anh va giu dung ten file.
    - Da bo nhay anh MP3/local luc app moi mo.
-   - Timer doi anh dat 15 giay sau khi anh truoc load xong.
+   - Timer doi anh ban v14 dat 30 giay sau khi anh truoc load xong.
+   - Vong anh chay theo thu tu `1 -> 10`, het `10` thi quay lai `1`.
    - Nut `Dong y` trong hop thoai thoat app da sua de thoat ve launcher.
+   - Ban v14 an dong "phien ban moi nhat" tren man hinh mo app de tranh hien sai `3.56(2)`.
 
 ## Cach ra ban moi sau nay
 
@@ -80,7 +82,7 @@ Ket noi box test:
 
 ```powershell
 C:\Android\Sdk\platform-tools\adb.exe connect 192.168.1.23:5555
-C:\Android\Sdk\platform-tools\adb.exe -s 192.168.1.23:5555 install -r -d .\SmartKaraokePlayerPRO_v3.56_newkey_bgok_v13_github_photo_15s_exitfix.apk
+C:\Android\Sdk\platform-tools\adb.exe -s 192.168.1.23:5555 install -r -d .\SmartKaraokePlayerPRO_v3.56_newkey_bgok_v14_github_photo_10x30s_nolatest.apk
 ```
 
 Chup man hinh test background:

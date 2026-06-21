@@ -25,7 +25,7 @@ versionCode;versionName;apkUrl
 Vi du ban hien tai:
 
 ```txt
-416;3.56;https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_bgok_v13_github_photo_15s_exitfix.apk
+416;3.56;https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_bgok_v14_github_photo_10x30s_nolatest.apk
 ```
 
 Y nghia:
@@ -58,6 +58,7 @@ Neu so dau lon hon app dang cai thi app se hien thong bao tai ban moi.
 - Link APK nen la raw GitHub hoac link tai truc tiep ket thuc bang `.apk`.
 - Neu chi co 1 ban APK, co the de `version.txt` va `version_rtd.txt` giong nhau.
 - Ban fix cung `versionCode=416` se khong tu hien thong bao update tren may da cai ban 416. Neu may con popup ma kich hoat cu, hay cai tay APK moi trong repo mot lan.
-- Ban hien tai doc anh nen tu repo `TNB88/photo_karaoke`: `1.jpg`, `2.jpg`, `3.jpg`, `4.jpg`.
-- Anh nen doi moi khoang 15 giay sau khi anh truoc load xong.
-- Ban hien tai: `SmartKaraokePlayerPRO_v3.56_newkey_bgok_v13_github_photo_15s_exitfix.apk`.
+- Ban hien tai doc anh nen tu repo `TNB88/photo_karaoke`: `1.jpg` den `10.jpg`.
+- Anh nen doi theo thu tu, moi 30 giay sau khi anh truoc load xong, het `10.jpg` thi quay lai `1.jpg`.
+- Ban hien tai da an dong bao "phien ban moi nhat" o man hinh mo app.
+- Ban hien tai: `SmartKaraokePlayerPRO_v3.56_newkey_bgok_v14_github_photo_10x30s_nolatest.apk`.
