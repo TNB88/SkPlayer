@@ -63,6 +63,13 @@ Ghi chu nay de lan sau mo Codex tren may khac van biet APK da sua nhung gi.
      - `youtubeExtractorDashApi=""`.
      - `dynamicPluginUpdateEnabled=false` de server/cu cau hinh cu khong ghi de extractor.
 
+7. Sua thong bao update sai 3.56(2)
+   - Ban v20 da test tren Android box `192.168.1.9`, man hinh Cai dat khong con hien "Da co phien ban moi ... 3.56(2)".
+   - File sua: `com/smartkaraoke/playerpro/z.smali`.
+   - Nguyen nhan: `z.smali` hoi server update goc cua Smart Karaoke truoc; server goc tra ve ban `3.56(2)` nen SettingsActivity hien sai du repo `SkPlayer` dang de `416;3.56`.
+   - Cach sua: tai diem `:goto_15f`, doi nhanh `if-eqz v2, :cond_164` thanh `goto :cond_164` de bo qua ket qua server goc va tiep tuc doc file GitHub `version.txt/version_rtd.txt`.
+   - Nhu vay app van con co che update qua GitHub: khi muon bao ban moi, chi can tang so dau trong `version.txt`/`version_rtd.txt` len lon hon `416`.
+
 ## Cach ra ban moi sau nay
 
 1. Sua/build APK moi.
@@ -95,7 +102,7 @@ Ket noi box test:
 
 ```powershell
 C:\Android\Sdk\platform-tools\adb.exe connect 192.168.1.23:5555
-C:\Android\Sdk\platform-tools\adb.exe -s 192.168.1.23:5555 install -r -d .\SmartKaraokePlayerPRO_v3.56_newkey_bgok_v19_youtube_1080_4k.apk
+C:\Android\Sdk\platform-tools\adb.exe -s 192.168.1.23:5555 install -r -d .\SmartKaraokePlayerPRO_v3.56_newkey_bgok_v20_youtube_1080_4k_noupdatefix.apk
 ```
 
 Chup man hinh test background:
