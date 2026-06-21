@@ -4,13 +4,13 @@ Ghi chu nay de lan sau mo Codex tren may khac van biet APK da sua nhung gi.
 
 ## Ban dang dung
 
-- APK on dinh hien tai: `SmartKaraokePlayerPRO_v3.56_newkey_bgok_v15_github_photo_10x30s_guard.apk`
+- APK on dinh hien tai: `SmartKaraokePlayerPRO_v3.56_newkey_bgok_v19_youtube_1080_4k.apk`
 - Version trong APK: `versionCode=416`, `versionName=3.56`
 - File update app doc:
   - `version.txt`
   - `version_rtd.txt`
-- Link update hien tai dang tro ve ban v15:
-  - `https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_bgok_v15_github_photo_10x30s_guard.apk`
+- Link update hien tai dang tro ve ban v19:
+  - `https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_bgok_v19_youtube_1080_4k.apk`
 
 ## Nhung viec da sua
 
@@ -32,7 +32,7 @@ Ghi chu nay de lan sau mo Codex tren may khac van biet APK da sua nhung gi.
      ```
    - Vi du hien tai:
      ```txt
-     416;3.56;https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_bgok_v2_noold_v9.apk
+     416;3.56;https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_bgok_v19_youtube_1080_4k.apk
      ```
 
 4. Sua loi background bai hat
@@ -48,8 +48,20 @@ Ghi chu nay de lan sau mo Codex tren may khac van biet APK da sua nhung gi.
    - Timer doi anh ban v14 dat 30 giay sau khi anh truoc load xong.
    - Vong anh chay theo thu tu `1 -> 10`, het `10` thi quay lai `1`.
    - Nut `Dong y` trong hop thoai thoat app da sua de thoat ve launcher.
-   - Ban v14 an dong "phien ban moi nhat" tren man hinh mo app de tranh hien sai `3.56(2)`.
+   - Ban v14 an dong "phien ban moi nhat" tren man hinh mo app de tranh hien sai thong bao ban moi.
    - Ban v15 them guard trong `MainActivity.x0()`: neu `a1` dang co URL anh dang load thi bo qua lenh goi `x0()` chen ngang. Muc dich la khong tang bo dem anh khi anh truoc chua hien xong, tranh hien tuong nhay `1 -> 2 -> 4 -> 6`.
+
+6. Sua YouTube bi mo
+   - Ban v19 da test tren Android box `192.168.1.9`, chat luong da len net.
+   - Tra `InnerTubeStreamingDataParser.smali` ve cach tra key itag that nhu ban net `C:\karaoke 1111`, de lop phat di vao nhanh DASH parser thay vi nhanh link truc tiep.
+   - Trong `InnerTubeRuntime.smali` va cuoi `InnerTube.applyRuntimeConfig(...)` ep:
+     - `youtubeQuality=0` de uu tien chat luong cao nhat.
+     - `minAndroidSdkIntSupport1080=0x15`.
+     - `minAndroidSdkIntSupportVP9=0x15`.
+     - `youtubeExtractorClientType=0x3` Android VR.
+     - `youtubeExtractorClientTypeFallback=0x1` Android.
+     - `youtubeExtractorDashApi=""`.
+     - `dynamicPluginUpdateEnabled=false` de server/cu cau hinh cu khong ghi de extractor.
 
 ## Cach ra ban moi sau nay
 
@@ -83,7 +95,7 @@ Ket noi box test:
 
 ```powershell
 C:\Android\Sdk\platform-tools\adb.exe connect 192.168.1.23:5555
-C:\Android\Sdk\platform-tools\adb.exe -s 192.168.1.23:5555 install -r -d .\SmartKaraokePlayerPRO_v3.56_newkey_bgok_v15_github_photo_10x30s_guard.apk
+C:\Android\Sdk\platform-tools\adb.exe -s 192.168.1.23:5555 install -r -d .\SmartKaraokePlayerPRO_v3.56_newkey_bgok_v19_youtube_1080_4k.apk
 ```
 
 Chup man hinh test background:

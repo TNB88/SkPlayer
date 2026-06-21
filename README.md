@@ -25,7 +25,7 @@ versionCode;versionName;apkUrl
 Vi du ban hien tai:
 
 ```txt
-416;3.56;https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_bgok_v14_github_photo_10x30s_nolatest.apk
+416;3.56;https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_bgok_v19_youtube_1080_4k.apk
 ```
 
 Y nghia:
@@ -61,5 +61,6 @@ Neu so dau lon hon app dang cai thi app se hien thong bao tai ban moi.
 - Ban hien tai doc anh nen tu repo `TNB88/photo_karaoke`: `1.jpg` den `10.jpg`.
 - Anh nen doi theo thu tu, moi 30 giay sau khi anh truoc load xong, het `10.jpg` thi quay lai `1.jpg`.
 - Ban v15 co khoa chong goi chong khi anh dang load, tranh loi nhay nhanh/bo so anh.
+- Ban v19 sua YouTube extractor: tra parser ve nhanh DASH dung, ep quality auto-highest, uu tien Android VR/Android de len net 1080/4K khi video va thiet bi ho tro.
 - Ban hien tai da an dong bao "phien ban moi nhat" o man hinh mo app.
-- Ban hien tai: `SmartKaraokePlayerPRO_v3.56_newkey_bgok_v15_github_photo_10x30s_guard.apk`.
+- Ban hien tai: `SmartKaraokePlayerPRO_v3.56_newkey_bgok_v19_youtube_1080_4k.apk`.
