@@ -60,5 +60,6 @@ Neu so dau lon hon app dang cai thi app se hien thong bao tai ban moi.
 - Ban fix cung `versionCode=416` se khong tu hien thong bao update tren may da cai ban 416. Neu may con popup ma kich hoat cu, hay cai tay APK moi trong repo mot lan.
 - Ban hien tai doc anh nen tu repo `TNB88/photo_karaoke`: `1.jpg` den `10.jpg`.
 - Anh nen doi theo thu tu, moi 30 giay sau khi anh truoc load xong, het `10.jpg` thi quay lai `1.jpg`.
+- Ban v15 co khoa chong goi chong khi anh dang load, tranh loi nhay nhanh/bo so anh.
 - Ban hien tai da an dong bao "phien ban moi nhat" o man hinh mo app.
-- Ban hien tai: `SmartKaraokePlayerPRO_v3.56_newkey_bgok_v14_github_photo_10x30s_nolatest.apk`.
+- Ban hien tai: `SmartKaraokePlayerPRO_v3.56_newkey_bgok_v15_github_photo_10x30s_guard.apk`.

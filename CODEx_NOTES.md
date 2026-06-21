@@ -4,13 +4,13 @@ Ghi chu nay de lan sau mo Codex tren may khac van biet APK da sua nhung gi.
 
 ## Ban dang dung
 
-- APK on dinh hien tai: `SmartKaraokePlayerPRO_v3.56_newkey_bgok_v14_github_photo_10x30s_nolatest.apk`
+- APK on dinh hien tai: `SmartKaraokePlayerPRO_v3.56_newkey_bgok_v15_github_photo_10x30s_guard.apk`
 - Version trong APK: `versionCode=416`, `versionName=3.56`
 - File update app doc:
   - `version.txt`
   - `version_rtd.txt`
-- Link update hien tai dang tro ve ban v14:
-  - `https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_bgok_v14_github_photo_10x30s_nolatest.apk`
+- Link update hien tai dang tro ve ban v15:
+  - `https://raw.githubusercontent.com/TNB88/SkPlayer/refs/heads/main/SmartKaraokePlayerPRO_v3.56_newkey_bgok_v15_github_photo_10x30s_guard.apk`
 
 ## Nhung viec da sua
 
@@ -49,6 +49,7 @@ Ghi chu nay de lan sau mo Codex tren may khac van biet APK da sua nhung gi.
    - Vong anh chay theo thu tu `1 -> 10`, het `10` thi quay lai `1`.
    - Nut `Dong y` trong hop thoai thoat app da sua de thoat ve launcher.
    - Ban v14 an dong "phien ban moi nhat" tren man hinh mo app de tranh hien sai `3.56(2)`.
+   - Ban v15 them guard trong `MainActivity.x0()`: neu `a1` dang co URL anh dang load thi bo qua lenh goi `x0()` chen ngang. Muc dich la khong tang bo dem anh khi anh truoc chua hien xong, tranh hien tuong nhay `1 -> 2 -> 4 -> 6`.
 
 ## Cach ra ban moi sau nay
 
@@ -82,7 +83,7 @@ Ket noi box test:
 
 ```powershell
 C:\Android\Sdk\platform-tools\adb.exe connect 192.168.1.23:5555
-C:\Android\Sdk\platform-tools\adb.exe -s 192.168.1.23:5555 install -r -d .\SmartKaraokePlayerPRO_v3.56_newkey_bgok_v14_github_photo_10x30s_nolatest.apk
+C:\Android\Sdk\platform-tools\adb.exe -s 192.168.1.23:5555 install -r -d .\SmartKaraokePlayerPRO_v3.56_newkey_bgok_v15_github_photo_10x30s_guard.apk
 ```
 
 Chup man hinh test background:
